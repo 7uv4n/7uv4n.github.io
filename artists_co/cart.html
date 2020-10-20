@@ -46,37 +46,85 @@
                         <li class="nav-item" role="presentation"><a class="nav-link" href="shop.html" style="color: #ffffff;">Shop for paintings</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html" style="color: #ffffff;">&nbsp;Contact us</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="login1.html" style="color: #ffffff;"><i class="fa fa-sign-in"></i>&nbsp;Login for Artists</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="login2.html" style="color: #ffffff;background-color: #2d363e;"><i class="fa fa-sign-in"></i>&nbsp;Login for Consumers</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="login2.html" style="color: #ffffff;"><i class="fa fa-sign-in"></i>&nbsp;Login for Consumers</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="d-flex flex-column justify-content-center" id="login-box">
-            <div class="login-box-header">
-                <h4 style="color:rgb(139,139,139);margin-bottom:0px;font-weight:400;font-size:27px;">Login for Consumers</h4>
-            </div>
-            <div class="login-box-content">
-                <div class="fb-login box-shadow"><a class="d-flex flex-row align-items-center social-login-link" href="signinfb.html"><i class="fa fa-facebook" style="margin-left:0px;padding-right:20px;padding-left:22px;width:56px;"></i>Login with Facebook</a></div>
-                <div class="gp-login box-shadow"><a class="d-flex flex-row align-items-center social-login-link" href="signingg.html" style="margin-bottom:10px;"><i class="fa fa-google" style="color:rgb(255,255,255);width:56px;"></i>Login with Google+</a></div>
-            </div>
-            <div class="d-flex flex-row align-items-center login-box-seperator-container">
-                <div class="login-box-seperator"></div>
-                <div class="login-box-seperator-text">
-                    <p style="margin-bottom:0px;padding-left:10px;padding-right:10px;font-weight:400;color:rgb(201,201,201);">or</p>
-                </div>
-                <div class="login-box-seperator"></div>
-            </div>
-            <div class="email-login" style="background-color:#ffffff;"><input type="email" required="" placeholder="Email" minlength="6" class="email-imput form-control" style="margin-top:10px;"><input type="password" required="" placeholder="Password" minlength="6" class="password-input form-control" style="margin-top:10px;"></div>
-            <div
-                class="submit-row" style="margin-bottom:8px;padding-top:0px;"><a class="btn btn-primary btn-block box-shadow" role="button" href="cont2.html" id="submit-id-submit">Login</a>
-                <div class="d-flex justify-content-between">
-                    <div class="form-check form-check-inline" id="form-check-rememberMe"><input class="form-check-input" type="checkbox" name="check" id="formCheck-1" for="remember" style="cursor:pointer;"><label class="form-check-label" for="formCheck-1"><span class="label-text">Remember Me</span></label></div><a href="#"
-                        id="forgot-password-link">Forgot Password?</a></div>
-        </div>
-        <div id="login-box-footer" style="padding:10px 20px;padding-bottom:23px;padding-top:18px;">
-            <p style="margin-bottom:0px;">Don't you have an account?<a href="#" id="register-link">Sign Up!</a></p>
-        </div>
     </div>
+    <div class="row text-center" style="margin: 66px;">
+        <div class="col">
+            <h1>Shopping cart</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="table-responsive" style="padding: 19px;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 46px;">Pic</th>
+                                    <th>Product</th>
+                                    <th style="width: 190px;">Available</th>
+                                    <th>Price</th>
+                                    <th>Total Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="assets/img/1.jpg" style="width: 80px;height: 80px;"></td>
+                                    <td>Painting 1 by Visvas</td>
+                                    <td>In stock</td>
+                                    <td>1</td>
+                                    <td>$1400</td>
+                                    <td><i class="fa fa-trash" style="font-size: 64px;"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/img/3.png" style="width: 80px;height: 80px;"></td>
+                                    <td>Painting 2 by Yogesh A</td>
+                                    <td>In stock<br><br></td>
+                                    <td>1</td>
+                                    <td>$1200</td>
+                                    <td><i class="fa fa-trash" style="font-size: 64px;"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/img/4.jpg" style="width: 80px;height: 80px;"></td>
+                                    <td>Painting 3 by Siddanth</td>
+                                    <td>In stock<br><br></td>
+                                    <td>1</td>
+                                    <td>$1300</td>
+                                    <td><i class="fa fa-trash" style="font-size: 64px;"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Enter Address here</strong></td>
+                                    <td><textarea style="padding: 32px;"></textarea></td>
+                                    <td><br></td>
+                                    <td><strong>Sub-Total</strong></td>
+                                    <td>$39000</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td><br></td>
+                                    <td><strong>Shipping</strong></td>
+                                    <td>$1000</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td><br></td>
+                                    <td><strong>Total</strong></td>
+                                    <td>$40000</td>
+                                </tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <div class="col"><a class="btn btn-primary" role="button" href="shop.html" style="width: 100%;">Continue Shopping</a></div>
+                        <div class="col"><a class="btn btn-primary" role="button" href="Payment.html" style="width: 100%;background-color: rgb(3,157,0);">Proceed to Payment</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="footer-dark" style="background-color: rgb(55,67,77);">
         <footer>

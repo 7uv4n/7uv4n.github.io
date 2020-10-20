@@ -37,43 +37,56 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" style="height: 80px;background-color: #37434d;color: #ffffff;">
-        <div class="container-fluid"><a class="navbar-brand" href="index.html">artists.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="shop.html" style="color: #ffffff;">Shop for paintings</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html" style="color: #ffffff;">&nbsp;Contact us</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="login1.html" style="color: #ffffff;"><i class="fa fa-sign-in"></i>&nbsp;Login for Artists</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="login2.html" style="color: #ffffff;"><i class="fa fa-sign-in"></i>&nbsp;Login for Consumers</a></li>
-                </ul>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" style="height: 80px;background-color: #37434d;color: #ffffff;">
+            <div class="container-fluid"><a class="navbar-brand" href="index.html">artists.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="shop.html" style="color: #ffffff;">Shop for paintings</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html" style="color: #ffffff;">&nbsp;Contact us</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="login1.html" style="color: #ffffff;"><i class="fa fa-sign-in"></i>&nbsp;Login for Artists</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="login2.html" style="color: #ffffff;"><i class="fa fa-sign-in"></i>&nbsp;Login for Consumers</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div class="container">
-        <h1 class="text-center" style="width: 969px;">About us</h1>
-        <p style="width: 691px;">Welcome to HAMILTON ARTS STUDIOS. here we delve into the rare and exquisite art-designs which are specifically curated as per the clientele's tastes. We created artists.co short for Artists Collabrative to bridge the gap between consumers and
-            artists</p>
-        <p style="width: 816px;">Our primary goal as the members of this art-connoiseurs is to wane the percentage of Homelessness by Contributing 90% of the payment proceeds to UNESCO.&nbsp;</p>
-        <p style="width: 816px;">As always we strive to keep it real and original amongst us, The products available in our site are of impeccable qualities made from alcohol-acrylic hybrid inks and are very well laminated to keep it dust-free and lint free.</p>
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="text-center my-4" style="width: 928px;height: 70px;">Our Team</h2>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4 text-center" style="width: 306px;"><img class="rounded-circle img-fluid d-block mx-auto" src="assets/img/WhatsApp%20Image%202020-10-19%20at%209.00.46%20PM%20(2).jpeg">
-                <h3 class="m-0">Yuvan</h3>
-                <h5 class="my-1">CEO</h5>
-                <p>CEO, Hamilton Arts Studio</p>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4 text-center"><img class="rounded-circle img-fluid d-block mx-auto" src="assets/img/WhatsApp%20Image%202020-10-19%20at%209.00.19%20PM%20(2).jpeg" style="height: 400px;">
-                <h3 class="m-0">Mukthar</h3>
-                <h5 class="my-1">CTO</h5>
-                <p>CTO, Hamilton Arts Studio<br></p>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4 text-center" style="width: 290px;height: 335px;"><img class="rounded-circle img-fluid d-block mx-auto" src="assets/img/WhatsApp%20Image%202020-10-19%20at%208.59.47%20PM.jpeg" style="height: 400px;">
-                <h3 class="m-0">Yohan</h3>
-                <h5 class="my-1">CMO</h5>
-                <p>CMO, Hamilton Arts Studio<br></p>
+        </nav>
+    </div>
+    <div class="row .payment-dialog-row">
+        <div class="col-12 col-md-4 offset-md-4" style="height: 490px;">
+            <div class="card credit-card-box">
+                <div class="card-header">
+                    <h3><span class="panel-title-text">Payment Details </span><img class="img-fluid panel-title-image" src="assets/img/accepted_cards.png"></h3>
+                </div>
+                <div class="card-body">
+                    <form id="payment-form">
+                        <div class="form-row">
+                            <div class="col-12">
+                                <div class="form-group"><label for="cardNumber">Card number </label>
+                                    <div class="input-group"><input class="form-control" type="tel" required="" placeholder="Valid Card Number" id="cardNumber">
+                                        <div class="input-group-append"><span class="input-group-text"><i class="fa fa-credit-card"></i></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-7">
+                                <div class="form-group"><label for="cardExpiry"><span>expiration </span><span>EXP </span> date</label><input class="form-control" type="tel" required="" placeholder="MM / YY" id="cardExpiry"></div>
+                            </div>
+                            <div class="col-5 pull-right">
+                                <div class="form-group"><label for="cardCVC">cv code</label><input class="form-control" type="tel" required="" placeholder="CVC" id="cardCVC" style="width: 152px;"></div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12">
+                                <div class="form-group"><label for="couponCode">coupon code</label><input class="form-control" type="text" id="couponCode"></div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12"><button class="btn btn-success btn-block btn-lg" type="submit">Accept Payment</button></div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
